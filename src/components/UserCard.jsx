@@ -15,13 +15,13 @@ export default function UserCard({user_data}) {
   const img_src = `https://avatars.dicebear.com/v2/avataaars/${user_data["username"]}.svg?options[mood][]=happy`;
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardMedia component="img" alt="green iguana" height="140" image={img_src}/>
+    <Card sx={{ maxWidth: 345 }} className="user-card">
+      <CardMedia className="card-img" component="img" alt="green iguana" height="140" image={img_src}/>
       <CardContent>
-        <Typography gutterBottom variant="h6" component="div">{user_data["name"]}</Typography>
+        <Typography gutterBottom variant="h6" component="div" className="card-title">{user_data["name"]}</Typography>
         <UserInfo data={user_data}/>
       </CardContent>
-      <CardActions>
+      <CardActions className="card-footer">
         <IconButton aria-label="like" color="error"><FavoriteBorderTwoToneIcon /></IconButton>
         <Divider orientation="vertical" variant="middle" flexItem />
         <IconButton aria-label="edit"><EditTwoToneIcon /></IconButton>

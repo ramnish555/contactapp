@@ -3,35 +3,28 @@ img{
     object-fit: fill !important;
 }
 
-.css-cveggr-MuiListItemIcon-root {
+.list-icon {
     min-width: 36px !important;
 }
 
-.css-cvhtoe-MuiButtonBase-root-MuiListItemButton-root{
+.list{
     padding-left: 0 !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
 }
 
-.css-18k87ye-MuiTypography-root{
+.card-title{
     margin: 0 !important;
 }
 
-.css-1t6e9jv-MuiCardActions-root{
+.card-footer{
     border-top: 1px solid #e2e1e1;
     background: whitesmoke;
-}
-
-.css-16bghm4-MuiDivider-root{
-    margin: 0 !important;
+    justify-content: space-evenly;
 }
 
 hr:not([size]){
     height: auto !important;
-}
-
-.css-1t6e9jv-MuiCardActions-root{
-    justify-content: space-evenly;
 }
 
 .cards{
@@ -40,7 +33,7 @@ hr:not([size]){
     justify-content: space-evenly;
 }
 
-.css-1ri6ub7-MuiPaper-root-MuiCard-root{
+.user-card{
     min-width: 20rem;
     margin: 1rem;
 }

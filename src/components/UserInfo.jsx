@@ -12,20 +12,20 @@ export default function UserInfo({data}) {
   return (
     <List>
         <ListItem disablePadding>
-        <ListItemButton>
-            <ListItemIcon><EmailTwoToneIcon /></ListItemIcon>
+        <ListItemButton className="list">
+            <ListItemIcon className="list-icon"><EmailTwoToneIcon /></ListItemIcon>
             <ListItemText primary={data["email"]} />
         </ListItemButton>
         </ListItem>
         <ListItem disablePadding>
-        <ListItemButton>
-            <ListItemIcon><PhoneEnabledTwoToneIcon /></ListItemIcon>
+        <ListItemButton className="list">
+            <ListItemIcon className="list-icon"><PhoneEnabledTwoToneIcon /></ListItemIcon>
             <ListItemText primary={data["phone"]} />
         </ListItemButton>
         </ListItem>
         <ListItem disablePadding>
-        <ListItemButton>
-            <ListItemIcon><LanguageTwoToneIcon /></ListItemIcon>
+        <ListItemButton className="list">
+            <ListItemIcon className="list-icon"><LanguageTwoToneIcon /></ListItemIcon>
             <ListItemText primary={data["website"]} />
         </ListItemButton>
         </ListItem>
